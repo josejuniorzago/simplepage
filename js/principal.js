@@ -7,12 +7,12 @@ $(document).ready(function(){
         var email = $("#TxtEmail").val();
         var telefone = $("#TxtTelefone").val();
         var mensagem = $("#TxtMensagem").val();
-        var url = "http://api.lojafacilonline.com.br/api/Comum/EnviarEmail";
+        var url = "...";
 
         var postData = { 
         "de" : email, 
         "nome" : nome, 
-        "para" : "josejuniorzago@gmail.com", 
+        "para" : "...", 
         "assunto" : "Contato pelo Site",
         "mensagem" : mensagem
         }
@@ -24,7 +24,7 @@ $(document).ready(function(){
             url: url,
             data: postData,
             beforeSend: function(xhr){
-                xhr.setRequestHeader("Token", "objectsoftware123!");
+                xhr.setRequestHeader("Token", "...");
             },
             success: function(){
                 alert("Mensagem enviada com sucesso! Nossa equipe entrará em contato com você em breve.");
