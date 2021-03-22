@@ -1,0 +1,57 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+section {
+  padding: 100px 0;
+}
+
+#carouselSlides{
+  padding-top: 70px;
+  background-color: #E0E0E0;
+}
+
+.mx-auto{
+  text-align:center;
+}
+
+.itens-marca{
+  padding: 50px;
+  text-align: center;
+}
+
+.py-5{
+  background-color: #EDD500;
+  font-size: 12px;
+}
+
+.form{
+  padding: 15px;
+}
+
+.card{
+  background-color: #E0E0E0 !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.card input{
+  border-radius: 10px;
+  border: none;
+}
+
+.card textarea{
+  border-radius: 10px;
+  border: none;
+}
+
+.whatsapp {
+  position: fixed;
+  top: 80%;
+  left: 90%;
+  padding: 10px;
+  z-index: 10000000;
+}
